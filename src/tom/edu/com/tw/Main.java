@@ -12,7 +12,7 @@ public class Main
     {
         try
         {
-            final int PORT = 8000;
+            final int PORT = 6000;
             DatagramSocket ds = new DatagramSocket();
             InetAddress address = InetAddress.getByName("10.2.8.178");
             String str;
